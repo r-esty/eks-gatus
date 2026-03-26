@@ -15,7 +15,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/credentials v1.19.7
 	github.com/aws/aws-sdk-go-v2/service/ses v1.34.18
 	github.com/coreos/go-oidc/v3 v3.17.0
-	github.com/gofiber/fiber/v2 v2.52.11
+	github.com/gofiber/fiber/v2 v2.52.12
 	github.com/google/go-github/v48 v48.2.0
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/websocket v1.5.3
