@@ -19,3 +19,9 @@ node_modules
 gatus
 config/config.yml
 config.yaml
+
+
+# TF
+*.tfstate*
+.terraform/
+.terraform.lock.hcl
