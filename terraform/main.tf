@@ -7,3 +7,10 @@ module "vpc" {
 
 
 }
+
+module "eks" {
+
+    source = "./eks"
+    private_subnets_ids = module.vpc.private_subnets_ids
+    public_subnets_ids = module.vpc.public_subnets_ids
+}
