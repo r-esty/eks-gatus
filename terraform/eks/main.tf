@@ -42,7 +42,7 @@ resource "aws_eks_node_group" "gatus_node_group" {
 
 resource "aws_security_group" "eks_sg" {
   name        = "eks_sg"
-  description = "Security group the eks' vpc"
+  description = "Security group the eks vpc"
   vpc_id      = var.vpc_id
 
   tags = {
